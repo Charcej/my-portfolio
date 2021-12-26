@@ -1,0 +1,56 @@
+/* universal selctor to remove default browser-enforced styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* overall font color */
+body {
+    color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: rgb(26, 33, 42);
+}
+
+/* takes out bullet points from list items */
+ul {
+    list-style-type: none;
+}
+
+/* style to header h1 element */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: grey;
+    margin: 0;
+    /* this makes sure h1 element doesn't take up all the width */
+    display: inline;
+}
+
+/* style to header a elements */
+header a {
+    text-decoration: none;
+    color: peru;
+}
+
+/* moves navigation links to the right of h1 in header */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* makes the list into one line instead of each one getting its own line */
+header nav ul li {
+    display: inline;
+}
+
+/* isolates styling to navigation links only, creates space between with margin, lighter font color, adjusts font size */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 18px;
+}
