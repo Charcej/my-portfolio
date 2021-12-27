@@ -69,13 +69,23 @@ section {
     height: 350px;
     background-size: cover;
     background-position: bottom;
+    position: relative;
 }
 
 .hero-subtitle {
     background-color: aquamarine;
     padding: 20px;
-    width: 380px;
+    width: 370px;
     color: peru;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
+
+.hero-subtitle h3 {
+    font-size: 18px;
+    margin: 0;
 }
 /* Hero Style End*/
 
