@@ -15,6 +15,9 @@ body {
 header {
     padding: 15px 35px;
     background-color: rgb(26, 33, 42);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* takes out bullet points from list items */
@@ -29,7 +32,6 @@ header h1 {
     color: grey;
     margin: 0;
     /* this makes sure h1 element doesn't take up all the width */
-    display: inline;
 }
 
 
@@ -41,7 +43,6 @@ header a {
 
 /* moves navigation links to the right of h1 in header */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -89,6 +90,16 @@ section {
 }
 /* Hero Style End*/
 
+
+
+
+
+
+
+
+
+
+
 /* About Me Style Start */
 .about-me h2 {
     font-size: 40px;
@@ -116,56 +127,8 @@ section {
 
 /* Project 1 Style Start */
 .project-1 {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.project-2-link {
-    padding: 25px;
-    line-height: 1.3px;
-}
-
-.project-1 img {
-    width: 100%
-}
-
-.project-2 {
-    background-image: url("../images/run-buddy.png");
-    height: 350px;
-    width: 35%;
-    display: flex;
-    background-size: cover;
-    background-position: top;
-}
-
-.project-3 {
-    background-image: url("../images/run-buddy.png");
-    height: 350px;
-    width: 35%;
-    display: flex;
-    background-size: cover;
-    background-position: top;
-}
-
-.project-4 {
-    background-image: url("../images/run-buddy.png");
-    height: 350px;
-    width: 35%;
-    display: flex;
-    background-size: cover;
-    background-position: top;
-}
-
-.project-5 {
-    background-image: url("../images/run-buddy.png");
-    height: 350px;
-    width: 35%;
-    display: flex;
-    background-size: cover;
-    background-position: top;
+    padding: 20px;
+    float: right;
 }
 
 /* contact me section  styling */
@@ -207,6 +170,13 @@ section {
 .resume a {
     float: right;
 }
+
+
+
+
+
+
+
 
 
 /* style for the footer */
