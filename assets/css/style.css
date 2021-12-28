@@ -75,7 +75,7 @@ section {
 .hero-subtitle {
     background-color: aquamarine;
     padding: 20px;
-    width: 370px;
+    width: 450px;
     color: peru;
     border: solid 3px rgb(26, 33, 42);
     position: absolute;
@@ -88,6 +88,45 @@ section {
     margin: 0;
 }
 /* Hero Style End*/
+
+/* About Me Style Start */
+.about-me h2 {
+    font-size: 40px;
+    font-style: italic;
+    padding: 50px;
+    display: inline;
+    border-right: solid 4px rgb(26, 33, 42);
+}
+
+.about-me-content {
+    width: 75%;
+    margin-top: 0;
+    text-align: left;
+    float: right;
+}
+
+/* Work heading */
+.work h2 {
+    font-size: 40px;
+    font-style: italic;
+    padding: 50px;
+    display: inline;
+    border-right: solid 4px rgb(26, 33, 42);
+}
+
+/* Project 1 Style Start */
+.project-1 {
+    background-image: url("../images/run-buddy.png");
+    height: 350px;
+    width: 75%;
+    float: right;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.project-1 h3 p {
+    background-color: aquamarine;
+}
 
 /* style for the footer */
 footer {
