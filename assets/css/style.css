@@ -58,7 +58,7 @@ header nav ul li a {
     font-size: 18px;
 }
 
-/* makes each section a box */
+/* gives each section padding */
 section {
     padding: 60px;
 }
@@ -116,17 +116,98 @@ section {
 
 /* Project 1 Style Start */
 .project-1 {
-    background-image: url("../images/run-buddy.png");
-    height: 350px;
-    width: 75%;
-    float: right;
-    background-size: cover;
-    background-position: bottom;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.project-1 h3 p {
-    background-color: aquamarine;
+.project-2-link {
+    padding: 25px;
+    line-height: 1.3px;
 }
+
+.project-1 img {
+    width: 100%
+}
+
+.project-2 {
+    background-image: url("../images/run-buddy.png");
+    height: 350px;
+    width: 35%;
+    display: flex;
+    background-size: cover;
+    background-position: top;
+}
+
+.project-3 {
+    background-image: url("../images/run-buddy.png");
+    height: 350px;
+    width: 35%;
+    display: flex;
+    background-size: cover;
+    background-position: top;
+}
+
+.project-4 {
+    background-image: url("../images/run-buddy.png");
+    height: 350px;
+    width: 35%;
+    display: flex;
+    background-size: cover;
+    background-position: top;
+}
+
+.project-5 {
+    background-image: url("../images/run-buddy.png");
+    height: 350px;
+    width: 35%;
+    display: flex;
+    background-size: cover;
+    background-position: top;
+}
+
+/* contact me section  styling */
+.contact-me h2 {
+    font-size: 40px;
+    font-style: italic;
+    padding: 50px;
+    display: inline;
+    border-right: solid 4px rgb(26, 33, 42);
+} 
+
+.contact-me nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* makes the list into one line instead of each one getting its own line */
+.contact-me nav ul li {
+    display: inline;
+}
+
+/* isolates styling to navigation links only, creates space between with margin, lighter font color, adjusts font size */
+.contact-me nav ul li a {
+    margin: 0 25px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+/* resume stylings */
+
+.resume h2 {
+    font-size: 40px;
+    font-style: italic;
+    padding: 50px;
+    display: inline;
+    border-right: solid 4px rgb(26, 33, 42);
+}
+
+.resume a {
+    float: right;
+}
+
 
 /* style for the footer */
 footer {
