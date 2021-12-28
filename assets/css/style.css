@@ -31,6 +31,7 @@ header h1 {
     font-size: 36px;
     color: grey;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -59,6 +60,13 @@ header nav ul li a {
     border-bottom: solid 3px peru;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: aquamarine;
+    color: peru;
+    text-shadow: none;
 }
 
 /* gives each section padding */
@@ -89,6 +97,7 @@ section {
 .hero-subtitle h3 {
     font-size: 18px;
     margin: 0;
+   
 }
 /* Hero Style End*/
 
@@ -142,8 +151,12 @@ section {
     background-color: aquamarine;
     font-size: 24px;
     text-decoration: none;
-    padding: 5px;
-   
+    padding: 5px; 
+}
+
+.project-1 a:hover {
+    background: rgb(26, 33, 42);
+    color: peru;
 }
 
 /* contact me section  styling */
@@ -172,6 +185,11 @@ section {
     font-size: 18px;
 }
 
+.contact-me nav ul li a:hover {
+    background: aquamarine;
+    color: peru;
+}
+
 /* resume stylings */
 
 .resume h2 {
@@ -187,6 +205,11 @@ section {
     position: relative;
     right: 620px;
     bottom: 25px;
+}
+
+.resume a:hover {
+    background: aquamarine;
+    color: peru;
 }
 
 
