@@ -9,6 +9,7 @@
 body {
     color: gray;
     font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
 }
 
 /* styles to <header> */
@@ -71,6 +72,8 @@ header nav ul li a:hover {
 
 /* gives each section padding */
 section {
+    width: 100%;
+    margin: 0 auto;
     padding: 60px;
 }
 
@@ -102,28 +105,20 @@ section {
 /* Hero Style End*/
 
 
-
-
-
-
-
-
-
-
-
 /* About Me Style Start */
 .about-me h2 {
     font-size: 40px;
     font-style: italic;
     padding: 50px;
     display: inline;
-    border-right: solid 4px rgb(26, 33, 42);
+   
 }
 
 .about-me-content {
     float: right;
     width: 70%;
     text-align: left;
+  
 }
 
 /* Work heading */
@@ -132,7 +127,7 @@ section {
     font-style: italic;
     padding: 50px;
     display: inline;
-    border-right: solid 4px rgb(26, 33, 42);
+    height: 350px;
 }
 
 /* Project 1 Style Start */
@@ -144,7 +139,7 @@ section {
     position: relative;
     float: right;
     width: 70%;
-    text-align: left;
+    
 }
 
 .project-1 a {
@@ -159,18 +154,42 @@ section {
     color: peru;
 }
 
+/* Project 2 Style Start */
+.project-2 {
+    background-image: url("../images/horiseon.png");
+    height: 350px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    float: right;
+    width: 30%;
+    margin-right: 470px;
+    
+}
+
+.project-2 a {
+    background-color: aquamarine;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 5px; 
+}
+
+.project-2 a:hover {
+    background: rgb(26, 33, 42);
+    color: peru;
+}
+
 /* contact me section  styling */
 .contact-me h2 {
     font-size: 40px;
     font-style: italic;
     padding: 50px;
     display: inline;
-    border-right: solid 4px rgb(26, 33, 42);
 } 
 
 .contact-me nav {
     float: right;
-    margin: 7px 0;
+    margin: 15px 0;
 }
 
 /* makes the list into one line instead of each one getting its own line */
@@ -197,7 +216,6 @@ section {
     font-style: italic;
     padding: 50px;
     display: inline;
-    border-right: solid 4px rgb(26, 33, 42);
 }
 
 .resume a {
@@ -205,6 +223,7 @@ section {
     position: relative;
     right: 620px;
     bottom: 25px;
+    
 }
 
 .resume a:hover {
@@ -213,11 +232,15 @@ section {
 }
 
 
-
-
-
-
-
+.profile-pic {
+    height: 550px;
+    width: 100%;
+    background-image: url("../images/profile.png");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    background-position: top;
+} 
 
 
 /* style for the footer */
@@ -242,3 +265,7 @@ footer div {
     line-height: 1;
 }
 
+.content-spacer {
+    width: 100%;
+    height: 40px;
+}
