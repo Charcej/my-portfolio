@@ -247,7 +247,7 @@ section {
 .resume a {
     float: right;
     position: relative;
-    right: 620px;
+    right: 400px;
     bottom: 25px;
 }
 
@@ -322,6 +322,31 @@ footer div {
          header nav ul li a {
              font-size: 20px;
          }
+
+         .about-me {
+             flex-wrap: wrap;
+         }
+
+         .work {
+           flex-wrap: wrap;  
+         }
+
+         .project-2 {
+             position: relative;
+         }
+
+         .project-3 {
+             position: sticky;
+           
+         }
+
+         .resume h2 {
+             flex-wrap: wrap;
+         }
+
+         .resume a {
+             flex-wrap: wrap;
+         }
  
          footer h2, footer div {
              text-align: center;
@@ -335,6 +360,7 @@ footer div {
 
          .profile-pic {
              display: none;
+             overflow: hidden;
          }
 
         
