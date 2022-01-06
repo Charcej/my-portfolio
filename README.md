@@ -13,6 +13,9 @@ This is the first version of this with hopefully vast improvements to come later
 ## Website
 https://charcej.github.io/my-portfolio/
 
+## Screenshot of top of website
+https://user-images.githubusercontent.com/94859458/148412133-cb1f2288-3e0f-45b9-bfd6-e19705ee4492.png)
+
 ## Contribution
 Made with ❤️ by Charles Johnston
 
