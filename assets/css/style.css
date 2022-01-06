@@ -306,7 +306,6 @@ footer div {
         justify-content: center;
         position: relative;
     }
-         /* this will be applied on any screen smaller than 980px */
  
          header h1 {
              width: 100%;
@@ -324,21 +323,32 @@ footer div {
          }
 
          .about-me {
-             flex-wrap: wrap;
+             width: 100%;
+             text-align: center;
+             margin-bottom: 100px;
          }
 
          .work {
-           flex-wrap: wrap;  
+           width: 100%;  
+           text-align: center;
+           margin-bottom: 100px;
+         }
+
+         .project-1 {
+             width: 100%;
          }
 
          .project-2 {
-             position: relative;
+             position: center;
+             flex-wrap: wrap;
+             float: none;
          }
 
          .project-3 {
-             position: sticky;
-             margin-bottom: 100px;
-           
+             position: center;
+             flex-wrap: wrap;
+             float: none;
+             margin: auto;
          }
 
          .resume h2 {
@@ -346,7 +356,9 @@ footer div {
          }
 
          .resume a {
-             flex-wrap: wrap;
+             text-align: center;
+             width: 100%;
+             padding-left: 850px;
          }
  
          footer h2, footer div {
@@ -362,9 +374,7 @@ footer div {
          .profile-pic {
              display: none;
              overflow: hidden;
-         }
-
-        
+         } 
      
 }
  
