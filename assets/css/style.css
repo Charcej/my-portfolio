@@ -180,7 +180,7 @@ section {
 }
 
 /* Project 3 Style Start */
-.project-3 {
+/* .project-3 {
     background-image: url("../images/robot.png");
     height: 350px;
     background-size: cover;
@@ -201,6 +201,31 @@ section {
 }
 
 .project-3 a:hover {
+    background: rgb(26, 33, 42);
+    color: peru;
+} */
+
+.project-4 {
+    background-image: url("../images/trivializer.png");
+    height: 350px;
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    float: right;
+    width: 30%;
+    margin-right: 470px;
+    margin-left: 800px;
+    
+}
+
+.project-4 a {
+    background-color: aquamarine;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 5px; 
+}
+
+.project-4 a:hover {
     background: rgb(26, 33, 42);
     color: peru;
 }
