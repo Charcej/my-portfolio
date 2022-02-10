@@ -153,6 +153,10 @@ section {
     
 }
 
+.project-1 u {
+    font-size: 30px;
+}
+
 .project-1 a {
     background-color: aquamarine;
     font-size: 24px;
@@ -166,9 +170,9 @@ section {
 }
 
 /* Project 2 Style Start */
-.project-2 {
+/* .project-2 {
     background-image: url("../images/horiseon.png");
-    height: 350px;
+    height: 325px;
     background-size: cover;
     background-position: bottom;
     position: relative;
@@ -187,10 +191,10 @@ section {
 
 .project-2 a:hover {
     background: rgb(26, 33, 42);
-    color: peru;
-}
+    color: peru; */
+/* } */
 
-/* Project 3 Style Start */
+/* Project 3 Style Start */ */
 /* .project-3 {
     background-image: url("../images/robot.png");
     height: 350px;
@@ -214,7 +218,7 @@ section {
 .project-3 a:hover {
     background: rgb(26, 33, 42);
     color: peru;
-} */
+}
 
 .project-4 {
     background-image: url("../images/trivializer.png");
@@ -225,7 +229,7 @@ section {
     float: right;
     width: 30%;
     margin-right: 470px;
-    margin-left: 800px;
+    margin-left: 500px;
     
 }
 
@@ -242,12 +246,13 @@ section {
 }
 
 /* contact me section  styling */
+
 .contact-me h2 {
     font-size: 40px;
     font-style: italic;
     padding: 50px;
     display: inline;
-} 
+}
 
 .contact-me nav {
     float: right;
@@ -262,9 +267,11 @@ section {
 
 /* isolates styling to navigation links only, creates space between with margin, lighter font color, adjusts font size */
 .contact-me nav ul li a {
-    margin: 0 25px;
+
+    margin: 0 70px 0 10px;
     font-weight: lighter;
     font-size: 18px;
+    /* padding-right: 200px; */
 }
 
 .contact-me nav ul li a:hover {
@@ -284,14 +291,22 @@ section {
 .resume a {
     float: right;
     position: relative;
+    font-size: 50px;
     right: 400px;
     bottom: 25px;
+    padding-right: 105px;
 }
 
-.resume a:hover {
+/* .resume a:hover {
+    float: right;
+    position: relative;
+    font-size: 50px;
+    right: 400px;
+    bottom: 25px;
+    padding-right: 100px;
     background: aquamarine;
     color: peru;
-}
+} */
 
 
 .profile-pic {
