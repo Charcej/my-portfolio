@@ -251,7 +251,8 @@ section {
 
 .contact-me nav {
     float: right;
-    margin: 15px 0;
+    margin: 15px 20px;
+    padding-left: 50px;
 }
 
 /* makes the list into one line instead of each one getting its own line */
