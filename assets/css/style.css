@@ -123,9 +123,9 @@ section {
 .about-me p {
     float: right;
     /* width: 80%; */
-    text-align: left;
-    padding-right: 200px;
-    padding-left: 100px;
+    text-align: right;
+    /* padding-right: 100px; */
+    padding-left: 120px;
 
 }
 
@@ -290,11 +290,12 @@ section {
 
 .resume a {
     float: right;
-    position: relative;
+    /* position: relative; */
     font-size: 50px;
     right: 400px;
     bottom: 25px;
-    padding-right: 120px;
+    padding-right: 500px;
+    padding-left: 100px;
 }
 
 /* .resume a:hover {
@@ -382,6 +383,8 @@ footer div {
 
          .about-me p {
              text-align: center;
+             padding-right: 120px;
+             padding-bottom: 80px;
          }
 
          .work {
@@ -414,7 +417,10 @@ footer div {
          .resume a {
              text-align: center;
              width: 100%;
-             padding-left: 850px;
+             padding-left: 100px;
+             padding-right: 100px;
+             /*
+             padding-right: 50px; */
          }
  
          footer h2, footer div {
