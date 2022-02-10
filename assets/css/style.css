@@ -77,6 +77,10 @@ section {
     padding: 60px;
 }
 
+/* body h2 {
+    text-decoation: underline;
+} */
+
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg-4.png");
@@ -132,7 +136,7 @@ section {
 
 /* Project 1 Style Start */
 .project-1 {
-    background-image: url("../images/run-buddy.png");
+    background-image: url("../images/trivializer2.png");
     height: 350px;
     background-size: cover;
     background-position: bottom;
