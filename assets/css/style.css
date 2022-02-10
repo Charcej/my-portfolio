@@ -120,11 +120,12 @@ section {
    
 }
 
-.about-me-content {
+.about-me p {
     float: right;
     /* width: 80%; */
-    text-align: center;
-    padding-right: 100px;
+    text-align: left;
+    padding-right: 200px;
+    padding-left: 100px;
 
 }
 
