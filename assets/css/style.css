@@ -1,18 +1,15 @@
-/* universal selctor to remove default browser-enforced styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* overall font color */
 body {
     color: gray;
     font-family: Helvetica, Arial, sans-serif;
     width: 100%;
 }
 
-/* styles to <header> */
 header {
     padding: 15px 35px;
     background-color: rgb(26, 33, 42);
@@ -21,12 +18,10 @@ header {
     flex-wrap: wrap;
 }
 
-/* takes out bullet points from list items */
 ul {
     list-style-type: none;
 }
 
-/* style to header h1 element */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -35,14 +30,11 @@ header h1 {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-
-/* style to header a elements */
 header a {
     text-decoration: none;
     color: peru;
 }
 
-/* moves navigation links to the right of h1 in header */
 header nav {
     margin: 7px 0;
 }
@@ -55,7 +47,6 @@ header nav ul {
     list-style: none;
 }
 
-/* isolates styling to navigation links only, creates space between with margin, lighter font color, adjusts font size */
 header nav ul li a {
     margin: 0 30px;
     border-bottom: solid 3px peru;
@@ -70,18 +61,6 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-/* gives each section padding */
-section {
-    width: 100%;
-    margin: 0 auto;
-    padding: 60px;
-}
-
-/* body h2 {
-    text-decoation: underline;
-} */
-
-/* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg-4.png");
     height: 350px;
@@ -107,71 +86,46 @@ section {
     margin: 0;
    
 }
-/* Hero Style End*/
 
-
-/* About Me Style Start */
 .about-me h2 {
-    text-align: center;
+    padding-top: 50px;
+    text-align: left;
     font-size: 40px;
     font-style: italic;
-    /* padding: 50px;
-    display: inline;
-    padding-right: 100px; */
-   
 }
 
 .about-me p {
-    text-align: center;
+    text-align: left;
 }
-    /* float: right;
-    /* width: 80%; */
-    /* text-align: right;
-    /* padding-right: 100px; */
-    /* padding-left: 120px; 
-}
-    */ 
 
-/* Work heading */
+.about-me-content p {
+    text-align: left;
+}
+
 .work h2 {
-    text-align: center;
+    padding-top: 50px;
+    text-align: left;
     font-size: 40px;
     font-style: italic;
-    /* padding-left: 40px;
-    padding: 50px; */
-    /* padding-bottom: 100px;
-    padding-right: 50px;
-    display: inline;
-    height: 350px; */
 }
 
-/* Project 1 Style Start */
 .project-1 {
-    background-image: url("../images/random2.png");
-    height: 350px;
+    background-image: url("../images/IMG_7216.png");
+    height: 450px;
     background-size: cover;
     background-position: bottom;
     position: center;
-    /* position: relative;
-    float: right; */
-    width: 100%;
+    width: 70%;
     
 }
 
-/* .project-1 u {
-    font-size: 30px;
-} */
-
 .project-1 a {
     background-color: aquamarine;
-   /* text-align: center; */
     font-size: 24px;
     text-decoration: none;  
     position: center; 
-    /* position: absolute;  */
-    /* padding-left: 250px;
-    padding-right: 250px; */
     width: 100%;
+    text-align: center;
 }
 
 
@@ -181,47 +135,27 @@ section {
     text-decoration: none;
 }
 
-/*Project 2 Style Start */
 .project-2 {
-    background-image: url("../images/quiz.png");
-    height: 325px;
+    background-image: url("../images/IMG_5495.png");
+    height: 400px;
     background-size: cover;
     background-position: bottom;
-    /* position: relative;
-    float: right; */
+    text-align: center;
     width: 100%;
 }
 
 .project-2 a {
     background-color: aquamarine;
-    /* text-align: center; */
     font-size: 24px;
     text-decoration: none;
-    /* position: absolute; */
-    /* padding-left: 300px;
-    padding-right: 435px; */
-    width: 100%;
+    position: center;
+    text-align: center;
 }
 
 .project-2 a:hover {
     background: rgb(26, 33, 42);
     color: peru;
     text-decoration: none;
-}
-/* } */
-
-/* Project 3 Style Start */ 
-/* .project-3 {
-    background-image: url("../images/robot.png");
-    height: 350px;
-    background-size: cover;
-    background-position: top;
-    position: absolute;
-    float: right;
-    width: 30%;
-    margin-right: 470px;
-    margin-left: 800px;
-    
 }
 
 .project-3 a {
@@ -261,8 +195,6 @@ section {
     color: peru;
 }
 
-/* contact me section  styling */
-
 .contact-me h2 {
     font-size: 40px;
     font-style: italic;
@@ -274,28 +206,24 @@ section {
     float: right;
     margin: 15px 20px;
     padding-left: 50px;
+    padding-right: 170px;
 }
 
-/* makes the list into one line instead of each one getting its own line */
 .contact-me nav ul li {
     display: inline-flex;
 }
 
-/* isolates styling to navigation links only, creates space between with margin, lighter font color, adjusts font size */
 .contact-me nav ul li a {
 
     margin: 0 70px 0 10px;
     font-weight: lighter;
     font-size: 18px;
-    /* padding-right: 200px; */
 }
 
 .contact-me nav ul li a:hover {
     background: aquamarine;
     color: peru;
 }
-
-/* resume stylings */
 
 .resume h2 {
     font-size: 40px;
@@ -306,25 +234,12 @@ section {
 
 .resume a {
     float: right;
-    /* position: relative; */
     font-size: 50px;
     right: 400px;
     bottom: 25px;
     padding-right: 500px;
     padding-left: 100px;
 }
-
-/* .resume a:hover {
-    float: right;
-    position: relative;
-    font-size: 50px;
-    right: 400px;
-    bottom: 25px;
-    padding-right: 100px;
-    background: aquamarine;
-    color: peru;
-} */
-
 
 .profile-pic {
     width: 20%;
@@ -339,8 +254,6 @@ section {
     box-shadow: 5px 10px #888888;
 } 
 
-
-/* style for the footer */
 footer {
     background: rgb(26, 33, 42);
     width: 100%;
@@ -350,14 +263,12 @@ footer {
     flex-wrap: wrap;
 }
 
-/* For the text on the left */
 footer h2 {
     color: peru;
     font-size: 30px;
     margin: 0;
 }
 
-/* for the text on the right */
 footer div {
     line-height: 1;
 }
@@ -392,15 +303,11 @@ footer div {
          }
 
          .about-me {
-             width: 100%;
-             text-align: center;
-             margin-bottom: 100px;
+             text-align: left;
          }
 
          .about-me p {
-             text-align: center;
-             padding-right: 120px;
-             padding-bottom: 80px;
+             text-align: left;
          }
 
          .work {
