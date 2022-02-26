@@ -67,6 +67,10 @@ header nav ul li a:hover {
     background-size: cover;
     background-position: top;
     position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-subtitle {
@@ -111,11 +115,13 @@ header nav ul li a:hover {
 
 .project-1 {
     background-image: url("../images/IMG_7216.png");
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
     height: 450px;
     background-size: cover;
     background-position: bottom;
     position: center;
-    width: 70%;
+    width: 50%;
     
 }
 
@@ -124,7 +130,7 @@ header nav ul li a:hover {
     font-size: 24px;
     text-decoration: none;  
     position: center; 
-    width: 100%;
+    width: 50%;
     text-align: center;
 }
 
@@ -137,11 +143,13 @@ header nav ul li a:hover {
 
 .project-2 {
     background-image: url("../images/IMG_5495.png");
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
     height: 400px;
     background-size: cover;
     background-position: bottom;
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 
 .project-2 a {
@@ -206,7 +214,7 @@ header nav ul li a:hover {
     float: right;
     margin: 15px 20px;
     padding-left: 50px;
-    padding-right: 170px;
+    padding-right: 250px;
 }
 
 .contact-me nav ul li {
@@ -300,6 +308,10 @@ footer div {
  
          header nav ul li a {
              font-size: 20px;
+         }
+
+         .hero {
+            background-attachment: scroll;
          }
 
          .about-me {
