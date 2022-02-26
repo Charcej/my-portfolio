@@ -112,89 +112,105 @@ section {
 
 /* About Me Style Start */
 .about-me h2 {
+    text-align: center;
     font-size: 40px;
     font-style: italic;
-    padding: 50px;
+    /* padding: 50px;
     display: inline;
-    padding-right: 100px;
+    padding-right: 100px; */
    
 }
 
 .about-me p {
-    float: right;
-    /* width: 80%; */
-    text-align: right;
-    /* padding-right: 100px; */
-    padding-left: 120px;
-
+    text-align: center;
 }
+    /* float: right;
+    /* width: 80%; */
+    /* text-align: right;
+    /* padding-right: 100px; */
+    /* padding-left: 120px; 
+}
+    */ 
 
 /* Work heading */
 .work h2 {
+    text-align: center;
     font-size: 40px;
     font-style: italic;
-    padding-left: 40px;
-    /* padding: 50px; */
-    padding-bottom: 100px;
+    /* padding-left: 40px;
+    padding: 50px; */
+    /* padding-bottom: 100px;
     padding-right: 50px;
     display: inline;
-    height: 350px;
+    height: 350px; */
 }
 
 /* Project 1 Style Start */
 .project-1 {
-    background-image: url("../images/trivializer2.png");
+    background-image: url("../images/random2.png");
     height: 350px;
     background-size: cover;
     background-position: bottom;
-    position: relative;
-    float: right;
-    width: 70%;
+    position: center;
+    /* position: relative;
+    float: right; */
+    width: 100%;
     
 }
 
-.project-1 u {
+/* .project-1 u {
     font-size: 30px;
-}
+} */
 
 .project-1 a {
     background-color: aquamarine;
+   /* text-align: center; */
     font-size: 24px;
-    text-decoration: none;
-    padding: 5px; 
+    text-decoration: none;  
+    position: center; 
+    /* position: absolute;  */
+    /* padding-left: 250px;
+    padding-right: 250px; */
+    width: 100%;
 }
+
 
 .project-1 a:hover {
     background: rgb(26, 33, 42);
     color: peru;
+    text-decoration: none;
 }
 
-/* Project 2 Style Start */
-/* .project-2 {
-    background-image: url("../images/horiseon.png");
+/*Project 2 Style Start */
+.project-2 {
+    background-image: url("../images/quiz.png");
     height: 325px;
     background-size: cover;
     background-position: bottom;
-    position: relative;
-    float: right;
-    width: 30%;
-    margin-right: 470px;
-    
+    /* position: relative;
+    float: right; */
+    width: 100%;
 }
 
 .project-2 a {
     background-color: aquamarine;
+    /* text-align: center; */
     font-size: 24px;
     text-decoration: none;
-    padding: 5px; 
+    /* position: absolute; */
+    /* padding-left: 300px;
+    padding-right: 435px; */
+    width: 100%;
 }
 
 .project-2 a:hover {
     background: rgb(26, 33, 42);
-    color: peru; */
+    color: peru;
+    text-decoration: none;
+}
 /* } */
 
-/* Project 3 Style Start */ */
+/* Project 3 Style Start */ 
 /* .project-3 {
     background-image: url("../images/robot.png");
     height: 350px;
