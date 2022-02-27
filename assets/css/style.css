@@ -350,8 +350,6 @@ footer div {
          }
 
          .project-3 {
-             /* position: center; */
-             /* flex-wrap: wrap; */
              float: none;
            
          }
@@ -365,8 +363,6 @@ footer div {
              width: 100%;
              padding-left: 100px;
              padding-right: 100px;
-             /*
-             padding-right: 50px; */
          }
 
          .contact-me {
