@@ -166,6 +166,17 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 
+.project-3 {
+    background-image: url("../images/IMG_5522.png");
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+    height: 400px;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    width: 50%;
+}
+
 .project-3 a {
     background-color: aquamarine;
     font-size: 24px;
@@ -179,13 +190,13 @@ header nav ul li a:hover {
 }
 
 .project-4 {
-    background-image: url("../images/trivializer.png");
-    height: 350px;
+    background-image: url("../images/IMG_5522.png");
+    height: 400px;
     background-size: cover;
     background-position: top;
     position: absolute;
     float: right;
-    width: 30%;
+    width: 50%;
     margin-right: 470px;
     margin-left: 500px;
     
@@ -339,10 +350,10 @@ footer div {
          }
 
          .project-3 {
-             position: center;
-             flex-wrap: wrap;
+             /* position: center; */
+             /* flex-wrap: wrap; */
              float: none;
-             margin: auto;
+           
          }
 
          .resume h2 {
@@ -356,6 +367,10 @@ footer div {
              padding-right: 100px;
              /*
              padding-right: 50px; */
+         }
+
+         .contact-me {
+             display: flex;
          }
  
          footer h2, footer div {
